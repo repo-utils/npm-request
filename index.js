@@ -76,7 +76,8 @@ module.exports = function (request, options, callback) {
   var reqOptions = {
     method: request.method,
     headers: {},
-    data: request.data
+    data: request.data,
+    timeout: request.timeout || 30000
   };
 
   var npmConfigInfo = parseConfig(options.configFile);
