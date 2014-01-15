@@ -1,0 +1,16 @@
+{
+  "name": "npm-request",
+  "description": "request with npmrc's auth",
+  "repository": "dead-horse/npm-request",
+  "version": "0.0.1",
+  "keywords": ["npm", "request", "auth"],
+  "author": "dead_horse <dead_horse@qq.com>",
+  "files": ["index.js"],
+  "dependencies": {
+    "urllib": "0.5.5"
+  },
+  "devDependencies": {
+
+  },
+  "license": "MIT"
+}
