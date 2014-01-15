@@ -68,6 +68,7 @@ module.exports = function (request, options, callback) {
     callback = options;
     options = {};
   }
+  options = options || {};
   for (var key in DEFAULT_NPM_OPTIONS) {
     options[key] = options[key] || DEFAULT_NPM_OPTIONS[key];
   }
