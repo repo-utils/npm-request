@@ -13,6 +13,7 @@
 /**
  * Module dependencies.
  */
+
 var urllib = require('urllib');
 var fs = require('fs');
 var path = require('path');
@@ -77,7 +78,8 @@ module.exports = function (request, options, callback) {
     method: request.method,
     headers: {},
     data: request.data,
-    timeout: request.timeout || 30000
+    timeout: request.timeout || 30000,
+    gzip: true
   };
 
   var npmConfigInfo = parseConfig(options.configFile);
@@ -106,6 +108,6 @@ module.exports = function (request, options, callback) {
     } catch (err) {
       //ignore
     }
-    return callback(err, parsed, data, res);
+    callback(err, parsed, data, res);
   });
 };

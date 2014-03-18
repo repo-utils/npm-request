@@ -7,10 +7,13 @@
   "author": "dead_horse <dead_horse@qq.com>",
   "files": ["index.js"],
   "dependencies": {
-    "urllib": "0.5.5"
+    "urllib": "0.5.11"
   },
   "devDependencies": {
-
+    "autod": "*"
+  },
+  "scripts": {
+    "autod": "autod -w"
   },
   "license": "MIT"
 }
