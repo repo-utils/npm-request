@@ -3,11 +3,17 @@
   "description": "request with npmrc's auth",
   "repository": "dead-horse/npm-request",
   "version": "0.0.4",
-  "keywords": ["npm", "request", "auth"],
+  "keywords": [
+    "npm",
+    "request",
+    "auth"
+  ],
   "author": "dead_horse <dead_horse@qq.com>",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
-    "urllib": "0.5.11"
+    "urllib": "2.6.0"
   },
   "devDependencies": {
     "autod": "*"
