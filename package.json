@@ -16,7 +16,7 @@
     "urllib": "2.7.0"
   },
   "devDependencies": {
-    "autod": "*"
+    "autod": "2.4.2"
   },
   "scripts": {
     "autod": "autod -w"
