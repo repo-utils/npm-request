@@ -1,7 +1,5 @@
-/**!
- * npm-request - index.js
- *
- * Copyright(c) cnpmjs.org and other contributors.
+/**
+ * Copyright(c) repo-utils and other contributors.
  * MIT Licensed
  *
  * Authors:
@@ -79,7 +77,7 @@ module.exports = function (request, options, callback) {
     headers: {},
     data: request.data,
     timeout: request.timeout || 30000,
-    gzip: true
+    gzip: true,
   };
 
   var npmConfigInfo = parseConfig(options.configFile);
