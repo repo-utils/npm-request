@@ -1,7 +1,7 @@
 {
   "name": "npm-request",
   "description": "request with npmrc's auth",
-  "repository": "dead-horse/npm-request",
+  "repository": "repo-utils/npm-request",
   "version": "0.0.4",
   "keywords": [
     "npm",
@@ -13,13 +13,20 @@
     "index.js"
   ],
   "dependencies": {
-    "urllib": "2.7.0"
+    "urllib": "^2.8.0"
   },
   "devDependencies": {
-    "autod": "*"
+    "autod": "*",
+    "istanbul": "*",
+    "mocha": "*"
   },
   "scripts": {
-    "autod": "autod -w"
+    "test": "mocha -t 5000 test/*.test.js",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- -t 5000 test/*.test.js",
+    "autod": "autod -w --prefix '~'"
+  },
+  "engines": {
+    "node": ">=0.12.9"
   },
   "license": "MIT"
 }

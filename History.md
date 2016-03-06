@@ -1,8 +1,7 @@
 
-0.0.4 / 2014-03-18 
+0.0.4 / 2014-03-18
 ==================
 
-  * Merge pull request #1 from fengmk2/urllib-gzip
   * try to use accept gzip encoding
 
 0.0.3 / 2014-01-15
