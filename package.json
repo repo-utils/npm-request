@@ -2,7 +2,7 @@
   "name": "npm-request",
   "description": "request with npmrc's auth",
   "repository": "repo-utils/npm-request",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "keywords": [
     "npm",
     "request",
